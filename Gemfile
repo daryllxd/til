@@ -24,6 +24,10 @@ group :jekyll_plugins do
    gem 'jekyll-feed', '~> 0.6'
 end
 
+gem 'pry'
+gem 'rb-readline'
+
 group :test do
   gem 'rspec'
+  gem 'timecop'
 end
