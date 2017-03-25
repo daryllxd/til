@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-03-19"
+title:  "TIL, 2017-03-19, after_commit is a thing"
 date:   2017-03-19 08:21:19 +0800
 categories: programming
 ---

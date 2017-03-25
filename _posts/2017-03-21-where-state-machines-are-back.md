@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-03-21"
+title:  "TIL, 2017-03-21, Where State Machines are Back"
 date:   2017-03-21 08:21:19 +0800
 categories: programming
 ---

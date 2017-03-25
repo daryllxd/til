@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-03-17"
+title:  "TIL, 2017-03-17, RubyconfPH Day 1"
 date:   2017-03-17 08:21:18 +0800
 categories: programming
 ---

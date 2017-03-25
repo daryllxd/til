@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-03-20"
+title:  "TIL, 2017-03-20, Grok eager_load and join"
 date:   2017-03-20 08:21:19 +0800
 categories: programming
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-03-23"
+title:  "TIL, 2017-03-23: Welcome to React"
 date:   2017-03-23 08:21:19 +0800
 categories: programming
 ---
