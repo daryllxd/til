@@ -5,7 +5,7 @@ class BlogPost < Thor
 
   def new
     text_to_insert = NewBlogPostGenerator.new.generate_string
-    file_path = "#{DateTime.now.strftime("%Y-%m-%d")}-til.md"
+    file_path = "./_posts/#{DateTime.now.strftime("%Y-%m-%d")}-til.md"
     new_file_name = File.open(file_path, 'w').puts(text_to_insert)
     puts "Created file #{file_path}"
   end
