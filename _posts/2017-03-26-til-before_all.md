@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-03-26"
+title:  "TIL, 2017-03-26, Before All is Done"
 date:   2017-03-26 00:01:38 +0800
 categories: programming
 ---
