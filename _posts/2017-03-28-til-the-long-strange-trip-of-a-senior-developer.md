@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-03-28"
+title:  "TIL, 2017-03-28, The Long Strange Trip of a Senior Developer"
 date:   2017-03-28 12:48:16 +0800
 categories: programming
 ---
@@ -10,12 +10,14 @@ categories: programming
 - VALUES RULE
 - Factory Girl, when creating a value object
 
+```ruby
       FactoryGirl.define do
         trait :initializes_as_value_object do
           skip_create
           initialize_with { new(attributes) }
         end
       end
+```
 
 ## [RubyConf 2016 - The long strange trip of a senior developer by Brandon Hays](https://www.youtube.com/watch?v=egntf0nykzk)
 
