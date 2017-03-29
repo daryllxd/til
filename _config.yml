@@ -24,6 +24,7 @@ github_username:  daryllxd
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 theme: jekyll-swiss
 theme_color: black
 gems:
