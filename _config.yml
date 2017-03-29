@@ -24,7 +24,8 @@ github_username:  daryllxd
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-swiss
+theme_color: black
 gems:
   - jekyll-feed
 exclude:
