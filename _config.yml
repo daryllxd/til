@@ -29,6 +29,7 @@ theme: jekyll-swiss
 theme_color: black
 gems:
   - jekyll-feed
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
