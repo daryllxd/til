@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-03-31"
+title:  "TIL, 2017-03-31, We Have Monokai"
 date:   2017-03-31 04:43:04 +0800
 categories: programming
 ---
@@ -23,4 +23,5 @@ p string # => "line #1line #2line #3"
 
 - Just to clarify: `a ||= b means a = b when a == false (falsey).`
 - `Nokogiri` apparently needs other things like `libxml2`.
+- To remove the 'You have activated
 - Meta TIL: To add rouge actual CSS to this freaking blog, I followed the instructions [here](https://github.com/jneen/rouge/issues/343). We have Monokai now!
