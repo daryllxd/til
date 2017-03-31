@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2017-03-30, Query Objects Yo"
+title:  "TIL, 2017-03-30, I like Shortcuts."
 date:   2017-03-30 23:33:40 +0800
 categories: programming
+summary: "Where Ctrl-Cmd-Shift is actually a thing."
 ---
 
 - 50km on the bike today.
