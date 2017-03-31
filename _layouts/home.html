@@ -58,7 +58,7 @@
         {% for post in site.posts %}
           {% if post.categories contains 'programming' %}
             {% capture my_include %}{% include post_block.html %}{% endcapture %}
-            {{ my_include | markdownify | replace_regex: 'http', 'wew' }}
+            {{ my_include | markdownify }}
           {% endif %}
         {% endfor %}
       </div>
