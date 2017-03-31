@@ -56,8 +56,10 @@
 
       <div class="container mx-auto px-2 py-4">
         {% for post in site.posts %}
-          {% capture my_include %}{% include post_block.html %}{% endcapture %}
-          {{ my_include | markdownify }}
+          {% if post.categories contains 'programming' %}
+            {% capture my_include %}{% include post_block.html %}{% endcapture %}
+            {{ my_include | markdownify }}
+          {% endif %}
         {% endfor %}
       </div>
 
