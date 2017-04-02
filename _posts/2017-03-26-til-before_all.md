@@ -3,6 +3,7 @@ layout: post
 title:  "TIL, 2017-03-26, Before All is Done"
 date:   2017-03-26 00:01:38 +0800
 categories: programming
+summary: "Where before_all has a lot of weird side effects."
 ---
 
 - Instead of `expect_any_instance_of`, just do a dynamic dispatch.

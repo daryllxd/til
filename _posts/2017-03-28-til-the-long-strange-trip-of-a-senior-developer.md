@@ -3,6 +3,7 @@ layout: post
 title:  "TIL, 2017-03-28, The Long Strange Trip of a Senior Developer"
 date:   2017-03-28 12:48:16 +0800
 categories: programming
+summary: "Where values rule."
 ---
 
 - `ActionView::Helpers::NumberHelper`.

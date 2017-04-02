@@ -3,6 +3,7 @@ layout: post
 title:  "TIL, 2017-03-27, THOR IS HERE"
 date:   2017-03-27 14:00:19 +0800
 categories: programming
+summary: "Where THOR WAS HERE."
 ---
 
 #### THOR IS HERE

@@ -3,6 +3,7 @@ layout: post
 title:  "TIL, 2017-03-29, THE MYSTERY OF THE PASTE IN VIM"
 date:   2017-03-29 10:48:50 +0800
 categories: programming
+summary: "Where pasting is literally the thing that nearly made me switch editors."
 ---
 
 - THE MYSTERY OF THE PASTE IN VIM. Seriously this has bothered me for so long. If you paste stuff from outside and they are formatted, you need to `:set paste`, paste, then `:set nopaste` after. THANK YOU BASED [http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste](http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste).
