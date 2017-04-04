@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2017-04-02 Mass move "
+title:  "TIL, 2017-04-02, assert_valid_keys"
 date:   2017-04-02 18:16:58 +0800
 categories: programming
+summary: "Assert Valid Keys"
 ---
 
 - Mass move: `mv _posts/*.md _posts/programming`.
