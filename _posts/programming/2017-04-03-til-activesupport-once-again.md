@@ -3,6 +3,7 @@ layout: post
 title:  "TIL, 2017-04-03"
 date:   2017-04-03 17:13:19 +0800
 categories: programming
+summary: "Active Support Once Again"
 ---
 
 - `spring`: Rails console is also included, you have to restart `spring` if you changed something in `config/initializers/`.
