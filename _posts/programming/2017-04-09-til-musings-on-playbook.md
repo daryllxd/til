@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-04-09"
+title:  "TIL, 2017-04-09, Musings on the planned SP playbook."
 date:   2017-04-09 19:24:04 +0800
 categories: programming
 summary: "Musings on the planned SP playbook."
