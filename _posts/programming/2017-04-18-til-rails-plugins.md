@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TIL, 2017-04-19, Enterprise Rails--Plugins"
-date:   2017-04-19 09:29:54 +0800
+title:  "TIL, 2017-04-18, Enterprise Rails--Plugins"
+date:   2017-04-18 09:29:54 +0800
 categories: programming
 summary: "Where I Read About Rails Plugins"
 ---
