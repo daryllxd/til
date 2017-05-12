@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require './blog_post'
+
+BlogPost.start(ARGV)

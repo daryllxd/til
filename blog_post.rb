@@ -1,3 +1,5 @@
+require 'thor'
+require 'tzinfo'
 require './new_blog_post_generator'
 
 class BlogPost < Thor
@@ -5,7 +7,7 @@ class BlogPost < Thor
 
   def new
     text_to_insert = NewBlogPostGenerator.new.generate_string
-    file_path = "./_posts/#{DateTime.now.strftime("%Y-%m-%d")}-til.md"
+    file_path = "./_posts/programming/#{DateTime.now.strftime("%Y-%m-%d")}-til.md"
     new_file_name = File.open(file_path, 'w').puts(text_to_insert)
     puts "Created file #{file_path}"
   end
