@@ -1,4 +1,5 @@
-require 'pry'
+require 'thor'
+require 'tzinfo'
 require 'rb-readline'
 
 class Commit < Thor
