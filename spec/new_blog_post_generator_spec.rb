@@ -1,7 +1,7 @@
 RSpec.describe NewBlogPostGenerator do
   it 'generates strings' do
     Timecop.freeze(Time.local(2008, 9, 1, 12, 0, 0)) do
-      generated_string = NewBlogPostGenerator.new.generate_string
+      generated_string = NewBlogPostGenerator.new(category: 'fitness').generate_string
 
       expected_generated_string =
         <<-HEREDOC
@@ -9,7 +9,7 @@ RSpec.describe NewBlogPostGenerator do
 layout: post
 title:  "TIL, 2008-09-01"
 date:   2008-09-01 12:00:00 +0800
-categories: programming
+categories: fitness
 ---
       HEREDOC
 

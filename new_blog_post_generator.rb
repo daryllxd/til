@@ -1,8 +1,9 @@
 class NewBlogPostGenerator
-  attr_reader :title
+  attr_reader :title, :category
 
-  def initialize(title: nil)
+  def initialize(title: nil, category: 'programming')
     @title = title
+    @category = category
   end
 
   def generate_string
@@ -11,7 +12,7 @@ class NewBlogPostGenerator
 layout: post
 title:  "TIL, #{date_format}#{title ? ", #{title}" : ''}"
 date:   #{date_and_time_format}
-categories: programming
+categories: #{category}
 ---
     HEREDOC
   end
@@ -21,6 +22,6 @@ categories: programming
   end
 
   def date_and_time_format
-    haha = DateTime.now.strftime("%Y-%m-%d %T %z")
+    DateTime.now.strftime("%Y-%m-%d %T %z")
   end
 end
