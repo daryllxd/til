@@ -1,3 +1,6 @@
+require 'active_support'
+require 'active_support/core_ext'
+
 class NewBlogPostGenerator
   attr_reader :title, :category
 
@@ -18,10 +21,10 @@ categories: #{category}
   end
 
   def date_format
-    DateTime.now.strftime("%Y-%m-%d")
+    DateTime.current.strftime("%Y-%m-%d")
   end
 
   def date_and_time_format
-    DateTime.now.strftime("%Y-%m-%d %T %z")
+    DateTime.current.strftime("%Y-%m-%d %T %z")
   end
 end

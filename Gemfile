@@ -16,7 +16,8 @@ gem 'json', '2.0.3'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem 'minima', '~> 2.0'
-gem 'thor'
+gem 'thor', '0.19.4'
+gem 'activesupport', '4.2.8' # Jemoji needs 4.x.x
 
 # If you want to use GitHub Pages, remove the 'gem 'jekyll'' above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
