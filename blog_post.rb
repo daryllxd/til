@@ -3,7 +3,7 @@ require 'tzinfo'
 require './new_blog_post_generator'
 
 class BlogPost < Thor
-  BLOG_POST_DEFAULT_CATEGORIES = ['programming', 'fitness']
+  BLOG_POST_DEFAULT_CATEGORIES = ['programming']
 
   map 'n' => :new
   map 'o' => :open
