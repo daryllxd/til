@@ -24,7 +24,7 @@ class BlogPost < Thor
   def open
     last_files_created_for = BLOG_POST_DEFAULT_CATEGORIES.map { |x| last_file_created_for(x) }.join(' ')
 
-    exec("vim -O2 #{last_files_created_for}")
+    exec("vim -O #{last_files_created_for}")
   end
 
   private
