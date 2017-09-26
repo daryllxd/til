@@ -1,3 +1,5 @@
+require 'rb-readline'
+require 'pry-byebug'
 require 'thor'
 require 'tzinfo'
 require './new_blog_post_generator'
@@ -30,9 +32,7 @@ class BlogPost < Thor
   private
 
   def last_file_created_for(category)
-    last_file_created_path2 = Dir
-      .glob(File.join(directory_for(category), '*.*'))
-      .max { |a,b| File.ctime(a) <=> File.ctime(b) }
+    last_file_created_path2 = Dir.glob(File.join(directory_for(category), '*.*')).last
   end
 
   def directory_for(category)
