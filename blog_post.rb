@@ -32,7 +32,7 @@ class BlogPost < Thor
   private
 
   def last_file_created_for(category)
-    last_file_created_path2 = Dir.glob(File.join(directory_for(category), '*.*')).last
+    Dir.glob(File.join(directory_for(category), '*.*')).sort {|a, b| File.ctime(a) <=> File.ctime(b) }.last
   end
 
   def directory_for(category)
