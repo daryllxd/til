@@ -1,17 +1,20 @@
 require 'thor'
 require 'tzinfo'
 require 'rb-readline'
+require 'pry'
 
 class Commit < Thor
   desc 'new', 'Create commit with the file format'
   method_option :yesterday,
     aliases: '-y',
     desc: 'Create commit with yesterday\'s date.',
+    default: 1,
+    type: :numeric,
     lazy_default: true
 
   def new
-    commit_format = if options[:yesterday]
-                      format_date(DateTime.now - 1)
+    commit_format = if options[:yesterday].to_i
+                      format_date(DateTime.now - options[:yesterday].to_i)
                     else
                       format_date(DateTime.now)
                     end
