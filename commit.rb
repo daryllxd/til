@@ -1,7 +1,7 @@
 require 'thor'
 require 'tzinfo'
 require 'rb-readline'
-require 'pry'
+require 'pry-byebug'
 
 class Commit < Thor
   desc 'new', 'Create commit with the file format'
