@@ -11,11 +11,19 @@ class BlogPost < Thor
   map 'o' => :open
 
   desc 'new', 'create new blog post'
+  method_option :yesterday,
+    aliases: '-y',
+    desc: 'Create blog_post with yesterday\'s date.',
+    default: 0,
+    type: :numeric,
+    lazy_default: true
 
   def new
     BLOG_POST_DEFAULT_CATEGORIES.each do |category|
-      text_to_insert = NewBlogPostGenerator.new(category: category).generate_string
-      file_path = "#{directory_for(category)}#{DateTime.now.strftime("%Y-%m-%d")}-til.md"
+      date_of_blog_post = (DateTime.current - options[:yesterday].to_i)
+
+      text_to_insert = NewBlogPostGenerator.new(category: category, date: date_of_blog_post).generate_string
+      file_path = "#{directory_for(category)}#{date_of_blog_post.strftime("%Y-%m-%d")}-til.md"
       new_file_name = File.open(file_path, 'w').puts(text_to_insert)
       puts "Created file #{file_path}"
     end

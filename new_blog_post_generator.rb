@@ -2,11 +2,12 @@ require 'active_support'
 require 'active_support/core_ext'
 
 class NewBlogPostGenerator
-  attr_reader :title, :category
+  attr_reader :title, :category, :date
 
-  def initialize(title: nil, category: 'programming')
+  def initialize(title: nil, category: 'programming', date: DateTime.current)
     @title = title
     @category = category
+    @date = date
   end
 
   def generate_string
@@ -21,10 +22,10 @@ categories: #{category}
   end
 
   def date_format
-    DateTime.current.strftime("%Y-%m-%d")
+    date.strftime("%Y-%m-%d")
   end
 
   def date_and_time_format
-    DateTime.current.strftime("%Y-%m-%d %T %z")
+    date.strftime("%Y-%m-%d %T %z")
   end
 end
