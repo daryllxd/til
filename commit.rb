@@ -13,8 +13,14 @@ class Commit < Thor
     lazy_default: true
 
   def new
-    commit_format = if options[:yesterday].to_i
-                      format_date(DateTime.now - options[:yesterday].to_i)
+    commit_format = if options[:yesterday].class == TrueClass || options[:yesterday].to_i
+                      offset = if options[:yesterday].class == TrueClass
+                                 1
+                               else
+                                 options[:yesterday].to_i
+                               end
+
+                      format_date(DateTime.now - offset)
                     else
                       format_date(DateTime.now)
                     end
