@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2017-12-19"
+title:  "TIL, 2017-12-19, New Foreign Key Migration Syntax"
 date:   2017-12-19 12:17:53 +0800
 categories: programming
 ---
