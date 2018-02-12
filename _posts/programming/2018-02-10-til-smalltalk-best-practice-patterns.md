@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2018-02-10"
+title:  "TIL, 2018-02-10, Smalltalk Best Practice Patterns Part 1"
 date:   2018-02-10 10:45:54 +0800
 categories: programming
 ---

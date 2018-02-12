@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2018-02-11"
+title:  "TIL, 2018-02-11, Automate Spotify Opening"
 date:   2018-02-11 19:22:10 +0800
 categories: programming
 ---
