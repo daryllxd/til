@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2018-02-12"
+title:  "TIL, 2018-02-12, smart_init"
 date:   2018-02-12 06:12:56 +0800
 categories: programming
+summary: "Where I read smart_init gem code."
 ---
 
 ## Musings:

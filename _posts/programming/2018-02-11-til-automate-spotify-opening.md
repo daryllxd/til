@@ -3,6 +3,7 @@ layout: post
 title:  "TIL, 2018-02-11, Automate Spotify Opening"
 date:   2018-02-11 19:22:10 +0800
 categories: programming
+summary: "Where I add a script to study opening/playing the Study playlist via the CLI. Also, I go back to React."
 ---
 
 ## Musings
