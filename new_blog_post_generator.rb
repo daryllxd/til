@@ -17,6 +17,7 @@ layout: post
 title:  "TIL, #{date_format}#{title ? ", #{title}" : ''}"
 date:   #{date_and_time_format}
 categories: #{category}
+summary: "Where I..."
 ---
     HEREDOC
   end
