@@ -7,7 +7,7 @@ categories: programming
 
 # RubyConfPH 2017 Second Day
 
-## Nick's Talk (The Ruby Box)
+## Nick Sutterer: The Ruby Box - 10 Ideas for Change
 
 #### Rails ActiveRecord 631 public methods: bad design because:
 - Deprecation PITA
@@ -48,7 +48,7 @@ categories: programming
 - MRuby does not use those tools.
 - AR Concern--bad since it looks like you're abstracting, but you are just hiding the methods in another file.
 
-## Simone Carletti (How Programming In Other Languages Made Me a Better Ruby Developer)
+## Simone Carletti: How Programming In Other Languages Made Me a Better Ruby Developer
 
 - "Emerging languages" - Lua, Kotlin, Clojure, Erlang, Haskell, Elixir, Go, Rust, Swift, Julia. Some of these have existed for years, but they offer some hints of how to improve programs.
 
@@ -56,13 +56,15 @@ categories: programming
 
 - We are trying to move responsibility to other data objects.
 
-      module Structs
-        class Domain
-          def initialize(attributes = {})
-          ...
-          end
-        end
-      end
+``` ruby
+module Structs
+  class Domain
+    def initialize(attributes = {})
+    ...
+    end
+  end
+end
+```
 
 - Separate data from execution logic
 - No state changes, means very loose coupling between the data and operations
@@ -84,9 +86,11 @@ categories: programming
 
 - `CoffeeMachine` example--if it is possible to decouple the machine implementation, you have to be able to isolate the dependency in the initializer code
 
-      def initialize(company, machine: CoffeeMachine.connect('api.dnsimple.coffee'))
-        @company, @machine = company, machine
-      end
+``` ruby
+def initialize(company, machine: CoffeeMachine.connect('api.dnsimple.coffee'))
+  @company, @machine = company, machine
+end
+```
 
 - Benefit of this approach: You can do shit like `described_class.new(company, machine: machine)`. The `machine` can exist as an actual mock `class TestCoffeeMachine` with actual methods.
 
@@ -123,13 +127,15 @@ categories: programming
 - Faster rendering of partials from cache.
 - `ActiveJob` per active job adapter,  you can do this
 
-      class EmailJob ActiveJob
-        self.queue_adapter = :sidekiq
-      end
+``` ruby
+class EmailJob ActiveJob
+  self.queue_adapter = :sidekiq
+end
 
-      class NewsLetterJob < ActiveJob
-        self.queue_adapter = :delayed_job
-      end
+class NewsLetterJob < ActiveJob
+  self.queue_adapter = :delayed_job
+end
+```
 
 - `rails dev:cache`--will restart the serve with caching also working. Do `rails dev:cache` again to disable caching.
 - Puma as default web server.
@@ -140,7 +146,7 @@ categories: programming
 - [http://blog.bigbinary.com/categories/Rails-5](http://blog.bigbinary.com/categories/Rails-5)
 - Rails 5.1.0 beta is already out.
 
-## Gautam Rege - GoFFI Around With Ruby
+## Gautam Rege: GoFFI Around With Ruby
 
 - Foreign Function Interfaces.
 - Josh Software.
@@ -175,7 +181,7 @@ categories: programming
 - The problem is trying to give the
 - Error handling:
 
-## JP - Microservices
+## JP Moral: Microservices
 
 #### Reasons for the Switch
 
