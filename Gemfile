@@ -28,10 +28,10 @@ group :jekyll_plugins do
    gem 'jekyll-feed', '~> 0.6'
 end
 
-gem 'pry'
+gem 'pry', '0.11.3'
 gem 'rb-readline'
 
 group :test do
-  gem 'rspec'
-  gem 'timecop'
+  gem 'rspec', '3.7.0'
+  gem 'timecop', '0.9.1'
 end
