@@ -4,12 +4,13 @@ RSpec.describe NewBlogPostGenerator do
       generated_string = NewBlogPostGenerator.new(category: 'fitness').generate_string
 
       expected_generated_string =
-        <<-HEREDOC
+        <<~HEREDOC
       ---
       layout: post
       title:  "TIL, 2008-09-01"
       date:   2008-09-01 12:00:00 +0800
       categories: fitness
+      summary: "Where I..."
       ---
       HEREDOC
 
@@ -28,6 +29,7 @@ RSpec.describe NewBlogPostGenerator do
       title:  "TIL, 2008-08-30"
       date:   2008-08-30 12:00:00 +0800
       categories: fitness
+      summary: "Where I..."
       ---
       HEREDOC
 
