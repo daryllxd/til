@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TIL, 2018-02-16, Bootstrap 4"
-date:   2018-02-16 02:55:18 +0800
+title:  "TIL, 2018-02-15, Bootstrap 4"
+date:   2018-02-15 02:55:18 +0800
 categories: programming
 summary: "Where I try out Bootstrap 4."
 ---
@@ -20,4 +20,3 @@ summary: "Where I try out Bootstrap 4."
 - I sometimes find it weird/really tedious that I'm still using [Reference](https://html2slim.herokuapp.com/) to convert HTML to Slim, but I haven't researched any alternatives yet.
 - `.sass` and `.scss` are also both Sass, just different syntaxes?
 - On bugs re: Bootstrap. Uh sometimes I just didn't see that the thing was already applied! Sheesh.
-
