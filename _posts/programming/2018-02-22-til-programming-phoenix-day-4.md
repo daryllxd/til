@@ -3,7 +3,7 @@ layout: post
 title:  "TIL, 2018-02-22, Phrug Meetup"
 date:   2018-02-22 08:33:49 +0800
 categories: programming
-summary: "Where I..."
+summary: "Ruby Meetup, Reading Programming Elixir/Concurrency."
 ---
 
 ## Musings
