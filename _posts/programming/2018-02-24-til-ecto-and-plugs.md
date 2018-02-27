@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2018-02-24"
+title:  "TIL, 2018-02-24, Ecto and Plugs"
 date:   2018-02-24 10:26:49 +0800
 categories: programming
 summary: "Phoenix Authentication, Changeset composition, IEx History."

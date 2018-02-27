@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2018-02-25"
+title:  "TIL, 2018-02-25, Habits Two, arise!"
 date:   2018-02-25 14:43:29 +0800
 categories: programming
-summary: "Where I..."
+summary: "Where I scrap out Elixir Habits One for a better one."
 ---
 
 ## Musings
