@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2018-02-16"
+title:  "TIL, 2018-02-16, Rewatching Simplicity Matters."
 date:   2018-02-16 06:11:41 +0800
 categories: programming
-summary: "Where I..."
+summary: "Where I agree with everything except primitive obsession."
 ---
 
 ## Musings

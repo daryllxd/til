@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2018-03-01"
+title:  "TIL, 2018-03-01, Asking out HN what their most productive day was."
 date:   2018-03-01 16:40:28 +0800
 categories: programming
-summary: "Where I..."
+summary: "Most common tip: block distractions. Momentum. Coffee. Being around better engineers. Not internalizing interruptions."
 ---
 
 ## Musings

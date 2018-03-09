@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2018-03-07"
+title:  "TIL, 2018-03-07, Non-MRI Ruby?"
 date:   2018-03-07 13:24:24 +0800
 categories: programming
-summary: "Where I..."
+summary: "Asking about using non-MRI Ruby in production, and the state of `strong_parameters` in Rails 5.x."
 ---
 
 ## Musings

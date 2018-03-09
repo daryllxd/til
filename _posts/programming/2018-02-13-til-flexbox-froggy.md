@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2018-02-13"
+title:  "TIL, 2018-02-13, Interactor and Flexbox Froggy."
 date:   2018-02-13 20:34:28 +0800
 categories: programming
 summary: "Where I read the interactor gem code. Also, Flexbox Froggy!"
