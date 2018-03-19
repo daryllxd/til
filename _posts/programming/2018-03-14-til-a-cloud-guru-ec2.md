@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2018-03-14"
+title:  "TIL, 2018-03-14 Cloud Guru EC2"
 date:   2018-03-14 16:09:57 +0800
 categories: programming
-summary: "Where I..."
+summary: "EC2 instance types, `Exception#full_message`, adding React Dev tools."
 ---
 
 - [Ruby adds `Exception#full_message` method.](https://blog.bigbinary.com/2018/03/13/ruby-2-5-adds-exception-full_message-method.html)
@@ -51,7 +51,6 @@ summary: "Where I..."
   - Lowest cost per gig.
 
 - Alexa skill?
-
 
 - Tips:
   - On demand vs spot vs reserved, dedicated hosts.
