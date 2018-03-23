@@ -3,7 +3,7 @@ layout: post
 title:  "TIL, 2018-03-21, Deploying Transcripto and Practicing React change states"
 date:   2018-03-21 18:23:05 +0800
 categories: programming
-summary: "React PropTypes and Context (used for react-router), Try Deploying Again on AWS"
+summary: "React PropTypes and Context (used for react-router), Try Deploying Again on AWS."
 ---
 
 ## Musings, React:
