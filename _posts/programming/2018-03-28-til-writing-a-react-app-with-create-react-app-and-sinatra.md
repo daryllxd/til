@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2018-03-28"
+title:  "TIL, 2018-03-28, Writing a React app with create-react-app and Sinatra"
 date:   2018-03-28 11:58:04 +0800
 categories: programming
 summary: "Writing prompts front-end and back-end with create-react-app and Sinatra."
