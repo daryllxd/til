@@ -29,7 +29,7 @@ function gada {
 ## Musings, Ruby
 
 - I like this, though if this was Elixir, it would just be a pattern match.
-- A `proc { self }` to return everything re: Enumerable`.
+- A `proc { self }` to return everything re: Enumerable.
 
 ``` ruby
 def duration_for(tag_name = nil)
