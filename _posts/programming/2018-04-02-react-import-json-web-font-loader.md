@@ -3,7 +3,7 @@ layout: post
 title:  "TIL, 2018-04-02, More React: Getting state from JSON, Web Font loader."
 date:   2018-04-02 16:18:52 +0800
 categories: programming
-summary: 'More create-react-app things for "Writing Prompts" (it's actually usable now!) and creating a Chef cookbook.'
+summary: "More create-react-app things for Writing Prompts (it's actually usable now!) and creating a Chef cookbook."
 ---
 
 # Musings, Chef/Reliably Deploying Rails apps

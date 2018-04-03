@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2018-04-01"
+title:  "TIL, 2018-04-01, Reading about hash tables, adding Lit.css, ES6 reading."
 date:   2018-04-01 22:49:17 +0800
 categories: programming
-summary: "Where I..."
+summary: "CS Hash table, Lit, yarn eject, fetch vs Axios, JS exports."
 ---
 
 # Musings, React and CSS
