@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TIL, 2018-04-06"
+title:  "TIL, 2018-04-06, Serverless Day"
 date:   2018-04-06 16:23:58 +0800
 categories: programming
-summary: "Where I..."
+summary: "I read a bunch of stuff around serverless architecture."
 ---
 
 # Musings, AWS/A Cloud Guru.
