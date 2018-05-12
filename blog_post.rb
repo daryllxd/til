@@ -20,7 +20,13 @@ class BlogPost < Thor
 
   def new
     BLOG_POST_DEFAULT_CATEGORIES.each do |category|
-      date_of_blog_post = (DateTime.current - options[:yesterday].to_i)
+      offset = if options[:yesterday].class == TrueClass
+                 1
+               else
+                 options[:yesterday].to_i
+               end
+
+      date_of_blog_post = (DateTime.current - offset)
 
       text_to_insert = NewBlogPostGenerator.new(category: category, date: date_of_blog_post).generate_string
       file_path = "#{directory_for(category)}#{date_of_blog_post.strftime("%Y-%m-%d")}-til.md"
