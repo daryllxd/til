@@ -3,7 +3,7 @@ layout: post
 title:  "TIL, 2018-05-28, Research on Event Sourcing"
 date:   2018-05-28 22:40:18 +0800
 categories: programming
-summary: "Where I..."
+summary: "Reading things on ES, and how the HN algorithm works."
 ---
 
 # Musings on Event Sourcing

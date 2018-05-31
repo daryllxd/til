@@ -84,8 +84,3 @@ CSV::MalformedCSVError: Illegal quoting in line 1.
   - Graph everything.
   - Think about what assumptions you make.
   - Talk to people.
-
-# Sealed Classes
-[Reference](https://codeascraft.com/2018/04/12/sealed-classes-opened-my-mind/)
-
-- Enums with actual types.
