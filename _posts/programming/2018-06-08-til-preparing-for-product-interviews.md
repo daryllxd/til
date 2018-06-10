@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL, 2018-06-08-preparing-for-product-interviews"
+title:  "TIL, 2018-06-08: Preparing for Product Interviews"
 date:   2018-06-08 12:27:50 +0800
 categories: programming
 summary: "Reading 'Cracking the PM Interview', UX Your Life"
