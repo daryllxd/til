@@ -35,3 +35,20 @@ summary: "Reading a lot of articles about Chamath Palihapatiya."
   - Liar's Poker
   - The Professor, the Banker, and the Suicide King
   - Fermat's Enigma
+
+# Musings
+
+- [Product Management From First Principles](https://productcoalition.com/product-management-from-first-principles-4668d2c694d5)
+  - Boil things down to the fundamental truths, and say, "what are we sure is true", and then reason up from there.
+  - Make sure you understand the fundamental principles before you get into the leaves/details or there is nothing for them to hang on to.
+  - Right problem to solve
+    - TG: Desire to save time that is spent on increasingly complex business operations.
+    - Users looking to use TG want to be in control and have more certainty about their operations. The designs took this context seriously and ensured clear error messages, graceful failures, and better navigations within the process.
+    - 3 layers of conversation: Is this product useful? Is this product usable? Is this product desirable?
+    - It becomes "When I blank, I want to blank, so I can blank.
+- [Here’s how we’re moving to product-led growth and why you should do the same](https://productcoalition.com/heres-how-we-re-moving-to-product-led-growth-and-why-you-should-do-the-same-92b0bbbb7399)
+  - Product engagement is a funnel: business to business platform to give users an online, private store.
+  - "You are only 3 steps away from saying goodbye to spreadsheets!"
+  - When starting out: focusing on getting users to either start setting up or to kick off a tour.
+  - The "it's just 40 seconds" is so important.
+  - "Customers integrate with online stores!"
