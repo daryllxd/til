@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TIL, 2018-10-14"
-date:   2018-10-14 16:13:01 +0800
+title:  "TIL, 2018-10-13"
+date:   2018-10-13 16:13:01 +0800
 categories: programming
 summary: "Jeff Bezos' API Manifesto."
 ---
