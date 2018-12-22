@@ -6,6 +6,10 @@ categories: programming
 summary: "Some night reading"
 ---
 
+# Musings
+
+- `brew services start mongodb`
+
 # Macro trends in the tech industry | Nov 2018
 [Reference](https://www.thoughtworks.com/insights/blog/macro-trends-tech-industry-nov-2018)
 
