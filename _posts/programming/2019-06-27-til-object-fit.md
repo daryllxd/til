@@ -22,7 +22,7 @@ summary: "Observable from data, background-size allowance, SCSS interpolating va
 
 - Creating an observable from data:
 
-```
+``` js
 export class MockTransactionService {
   getTransactions(params: HttpParams = new HttpParams()): Observable<Transaction[]> {
     return of(mockTransactions);
