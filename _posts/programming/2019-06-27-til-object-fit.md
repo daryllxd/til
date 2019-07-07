@@ -32,5 +32,3 @@ export class MockTransactionService {
 
 - `background-size: auto 97%` is sort of like `background-cover`, but you'll have an allowance on the right side
 - For interpolating variables in `calc`, you can do this: `width: calc(#{$variable-a} - #{$variable-b} - 50px);`
--
-
