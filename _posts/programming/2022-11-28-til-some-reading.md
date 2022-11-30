@@ -25,15 +25,6 @@ Accept-Language: en-US,en;q=0.8
 If-Modified-Since: Thu, 09 Jun 2016 02:49:35 GMT
 ```
 
-# Angular’s Future Without NgModules – Part 1: Lightweight Solutions Using Standalone Components
-[Reference](https://www.angulararchitects.io/aktuelles/angulars-future-without-ngmodules-lightweight-solutions-on-top-of-standalone-components/)
-
-- Why again? Because we needed a way to group building blocks that are used together - for devs and for the Angular compiler. This is so the Angular compiler knows which things are supposed to compile.
-  - Community not happy, because it becomes another module system besides ECMAScript.
-  - Ivy - The compiled application works without modules at runtime.
-- With standalone components, it will be possible to bootstrap a single component via `bootstrapApplication`.
-  - `importProvidersFrom` - allows bridging the gap to existing `NgModules`.
-
 # SWC
 [Reference](https://swc.rs/)
 
