@@ -12,7 +12,7 @@ ruby RUBY_VERSION
 gem 'jekyll', '3.3.1'
 gem 'jekyll-swiss'
 gem 'jemoji'
-gem 'json', '2.0.3'
+gem 'json', '2.3.0'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem 'minima', '~> 2.0'
